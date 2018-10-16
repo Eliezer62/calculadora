@@ -1,0 +1,35 @@
+@Charset "UTF-8";
+body{
+	font-family: Arial, sans-serif;
+	text-align: justify;
+}
+nav{
+	background-color: #651142;
+	margin: -12px;
+	margin-top: -18px;
+	padding-top: 5px;
+	padding-bottom: 0.5px;
+}
+ul{
+	margin-left: 5px;
+}
+li{
+	color: #CB87AF;
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+li:hover{
+	color: #fff;
+}
+div{
+	padding: 40px;
+}
+h1{
+	color: #338A2E;
+}
+img.teste{
+	position: absolute;
+	margin-left: 780px;
+	margin-top: -150px;
+}

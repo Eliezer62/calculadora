@@ -2,27 +2,35 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Calculadora v1.1 alpha</title>
+		<title>Calculadora v1.2 alpha</title>
 		<link rel="stylesheet" href="style.css"/>
+		<script>
+			function alerta(){
+				alert("Executável não adicionado!")
+			}
+			function abrircodigo(){
+				window.open("https://github.com/Eliezer62/calculadora")
+			}
+		</script>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<ul>
 					<a href="index.html"><li>Home</li></a>
-					<a href="#"><li>Documentation</li></a>
-					<a href="#"> <li style="background-color: #440028;">Download</li></a>
+					<a href="ajuda.html"><li>Documentation</li></a>
+					<a onclick="alerta()"> <li style="background-color: #440028;">Download</li></a>
 				</ul>
 			</nav>
 		</header>
 		<div>
 		<br/>
-		<h1 style="text-indent: 0px;">Calculadora v1.1 Alpha</h1>
+		<h1 style="text-indent: 0px;">Calculadora v1.2 Alpha</h1>
 		<br/>
 		<p>Calculadora feito em Python utilizando as bibliotecas Tkinter e Math. Desenvolvida para possuir as<br/> princípais funções de uma calculadora comum como: porcentagem, raiz quadrada, potência, fatorial, <br/>logarítimo e os cálculos básicos de toda calculadora.</p>
 		<img class="teste" src="calculadora.png"width=470 height=399/>
-		<a href="#"><button>Download</button></a>
-		<a href="#"><button>Download código</button></a>
+		<button onclick="alerta()">Download</button></a>
+		<button onclick="abrircodigo()">Download código</button>
 		</div>
 	</body>
 </html>

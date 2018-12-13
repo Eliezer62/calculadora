@@ -1,4 +1,4 @@
-@Charset "UTF-8";
+@charset "UTF-8";
 body{
 	font-family: Arial, sans-serif;
 	text-align: justify;
@@ -32,4 +32,20 @@ img.teste{
 	position: absolute;
 	margin-left: 780px;
 	margin-top: -150px;
+}
+
+button{
+	background-color: #1A1A59;
+	border: none;
+	padding: 20px;
+	width: 200px;
+	margin-top: 30px;
+	font-family: Helvetica, sans-serif;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #fff;
+}
+
+a{
+	cursor: pointer;
 }

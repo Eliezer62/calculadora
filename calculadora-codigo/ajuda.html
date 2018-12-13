@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <title>Calculadora v1.2 - Ajuda</title>
+        <meta charset="UTF-8"/>
+        <style>
+            body{
+                margin: 0px;
+                background-color: #e3efea;
+                font-family: Arial, sans-serif;
+            }
+            section#secao-principal {
+                background-color: #FFDBAA;
+                width: 800px;
+                position: absolute;
+                margin-left: 400px;
+                padding: 30px;
+            }
+            aside#navegador{
+                background-color: #FFDBAA;
+                width: 300px;
+                position: fixed;
+                padding: 10px;
+            }
+            ul{
+                list-style: none;
+                font-family: Arial, sans-serif;
+                font-weight: 600;
+            }
+            ul li{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="secao-principal">
+            <div style="text-align: center">
+                <h1>BEM VINDO!!</h1>
+                <p>AJUDA E DOCUMENTAÇÃO DA CALCULADORA V1.2</p>
+                <p>Calculadora desenvolvida em Python usando da GUI tkinter, os módulos Math, Functools e Webbrowser.</p>
+            </div>
+                <h1 id="conhecendo">1. Conhecendo a Calculadora</h1>
+                <img src="ajuda-arquivos/esquema.png" width=480 height=280, style="margin-left: 160px;"></img>
+                <br/><br/><br/><br/>
+                <h1 id="primeiros">2.Primeiros cálculos</h1>
+                <p> Para entender melhor o funcionamento, vamos realizar um cálculo. Pressione "567", depois "x", agora 89 e por fim "=". O resultado será 50463.</p>
+                <p>Agora vamos calcular um Logaritmo. Pressione "Log", no display, vai mostrar "log(". Digite o logaritmando 9  e depois pressione ",". Neste momento, vamos digitar a base que é 3 e por quase no fim, pressionar ")". Agora sim pressionamos "=" que vai nos dar o resultado 2.</p>
+                <br/><br/><br/><br/>
+                <h1 id="potencia">3.Potência</h1>
+                <p>Para calcular uma potência usados a função "^" que está no teclado das funções.</p>
+                <p>Ao ser pressionada, no visor aparecerá "pow(". A lógica para o cálculo é "pow(base, expoente)". Veja o exemplo:</p>
+                <h3>Ex1:</h3>
+                <p>pow(9,2) = 81.0</p>
+                <p>Para tal, se pressiona "^", após a base que é 9, depois a função ",", e o expoente "2", agora ")" e por fim "=".</p>
+                <br/><br/><br/><br/>
+                <h1 id="logaritmo">4.Logaritmo</h1>
+                <p>A Calculadora suporta logaritmos de bases diferentes ao já comum log de base 10.</p>
+                <p>Para calcular usa-se "log". A lógica é "log(logaritmando, base)". Observe o exemplo:</p>
+                <h3>Ex2:</h3>
+                <p>log(81,9)=2</p>
+                <p>Para realizar-lo, pressiona-se "log", depois o logaritmando, e base, agora ")" e por fim "=".</p>
+        </section>
+        <aside id="navegador">
+            <h1 style="background-color: #003A21; margin: -10px;text-indent: 50px; font-family: Arial, sans-serif; color: #fff">Ajuda</h1>
+            <ul style="padding-left: -40px;">
+                <li>Como usar
+                    <ul>
+                        <a href=#conhecendo><li>Conhecendo a Calculadora</li></a>
+                        <a href=#primeiros><li>Primeiros cálculos</li></a>
+                        <a href=#potencia><li>Potência</li></a>
+                        <a href=#logaritmo><li>Logaritmo</li></a>
+                    </ul>
+                </li>
+            </ul>
+            
+        </aside>
+    </body>
+</html>
